@@ -8,13 +8,6 @@
 
 ## Getting Started
 
-[TestMu AI](https://www.testmuai.com/) (Formerly LambdaTest) is the world's first full-stack AI Agentic Quality Engineering platform that empowers teams to test intelligently, smarter, and ship faster. Built for scale, it offers a full-stack testing cloud with 10K+ real devices and 3,000+ browsers. With AI-native test management, MCP servers, and agent-based automation, TestMu AI supports Selenium, Appium, Playwright, and all major frameworks. 
-
-With TestMu AI (Formerly LambdaTest), you can run Java Selenium tests across real browsers and operating systems. This sample shows how to configure Java + Selenium to run on the TestMu AI cloud.
-
-- [Sign up on TestMu AI](https://www.testmuai.com/register/) (Formerly LambdaTest).
-- Follow the [TestMu AI Documentation](https://www.testmuai.com/support/docs/) for the full setup walkthrough.
-
 ### Prerequisites
 
 - Java JDK 8 or higher
@@ -26,8 +19,7 @@ With TestMu AI (Formerly LambdaTest), you can run Java Selenium tests across rea
 Clone and install dependencies:
 
 ```bash
-git clone https://github.com/LambdaTest/java-selenium-sample && cd java-selenium-sample
-mvn versions:display-dependency-updates
+git clone https://github.com/abdul2605/lamdatestSelenium.git && cd lamdatestSelenium
 ```
 
 Set your credentials as environment variables.
@@ -37,7 +29,6 @@ Set your credentials as environment variables.
 ```bash
 export LT_USERNAME="YOUR_USERNAME"
 export LT_ACCESS_KEY="YOUR_ACCESS_KEY"
-export LT_TUNNEL="YOUR_TUNNEL_NAME"
 ```
 
 **Windows:**
@@ -45,7 +36,6 @@ export LT_TUNNEL="YOUR_TUNNEL_NAME"
 ```bash
 set LT_USERNAME="YOUR_USERNAME"
 set LT_ACCESS_KEY="YOUR_ACCESS_KEY"
-set LT_TUNNEL="YOUR_TUNNEL_NAME"
 ```
 
 ### Run tests
