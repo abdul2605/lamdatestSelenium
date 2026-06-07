@@ -12,7 +12,7 @@ import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.devtools.DevTools;
 import org.openqa.selenium.devtools.HasDevTools;
-import org.openqa.selenium.devtools.v140.emulation.Emulation;
+import org.openqa.selenium.devtools.v148.emulation.Emulation;
 import org.openqa.selenium.remote.Augmenter;
 import org.openqa.selenium.remote.DesiredCapabilities;
 import org.openqa.selenium.remote.RemoteWebDriver;
@@ -53,7 +53,7 @@ public class OverrideDeviceMode {
 
         devTools.send(Emulation.setDeviceMetricsOverride(414, 736, 50, true, empty(), empty(),
                 empty(), empty(), empty(), empty(), empty(),
-                empty(), empty(), empty()));
+                empty(), empty(), empty(), empty(), empty()));
         driver.get("http://whatismyscreenresolution.net/");
         String resolution = driver.findElement(By.id("resolution")).getText();
 
